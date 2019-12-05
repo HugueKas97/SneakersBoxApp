@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_home">
+
+<!--    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIKE BLAZER MID OFF-WHITEBROWN"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/product_name"
+                android:src="@drawable/nikeblazer"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_image"
+                android:text="$5900 MXN"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <TextView
+                android:id="@+id/product_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price"
+                android:text="Nike 24-32 Stock: 2"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/product_name2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIKE AIR FORCE ONE OFF-WHITE"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/product_image2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/product_name2"
+                android:src="@drawable/nikeairforce"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:id="@+id/product_price2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_image2"
+                android:text="$6500"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <TextView
+                android:id="@+id/product_description2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price2"
+                android:text="Nike 24-32 Stock:4"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/item3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/product_name3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIKE AIR MAX 900 OFF-WHITE BLACK"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/product_image3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_below="@+id/product_name3"
+                android:src="@drawable/nikeairmax"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="2dp"
+                />
+
+            <TextView
+                android:id="@+id/product_price3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_image3"
+                android:text="$6300"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <TextView
+                android:id="@+id/product_description3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/product_price3"
+                android:text="Nike 24-32 Stock:5"
+                android:layout_marginTop="2dp"
+                android:textAlignment="center"
+                android:textSize="16dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+<!--    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"></androidx.recyclerview.widget.RecyclerView>-->
+</ScrollView>
+

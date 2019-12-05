@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admingb"
+    tools:context=".HomeOptionsActivity">
+
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/shoess"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="210dp"
+        >
+
+    </ImageView>
+    <Button
+    android:id="@+id/main_productos"
+    android:layout_below="@id/product_image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="210dp"
+    android:background="@drawable/buttons"
+    android:padding="17dp"
+    android:textAllCaps="false"
+    android:textSize="18sp"
+    android:text="PRODUCTOS"
+    android:textColor="@android:color/white"
+    />
+
+    <Button
+        android:id="@+id/main_direcciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_productos"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="210dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="DIRECCIONES"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/main_pagos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_direcciones"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="210dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="MÉTODOS DE PAGO"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/cart_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cart"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="5dp"
+        >
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/main_carrito"
+        android:layout_below="@id/cart_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="CARRITO"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/main_ordenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@id/main_carrito"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="ORDENES"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/main_salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_ordenes"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/buttons"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="SALIR"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "572323536314",
+    "firebase_url": "https://sneakers-shop-ba201.firebaseio.com",
+    "project_id": "sneakers-shop-ba201",
+    "storage_bucket": "sneakers-shop-ba201.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572323536314:android:8c75a00cb81b49f2aed183",
+        "android_client_info": {
+          "package_name": "com.example.sneakersshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572323536314-phmaom3pct18ad47ova1jaulppo51es1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sneakersshop",
+            "certificate_hash": "4a990e486c5d7b7777f0b652319240d5546a837b"
+          }
+        },
+        {
+          "client_id": "572323536314-u5prmu7ljmq6umi1h30l04dsl3pddjo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe3uee1EcmQ89atuLkcrP8xKri-TiNfmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572323536314-u5prmu7ljmq6umi1h30l04dsl3pddjo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
